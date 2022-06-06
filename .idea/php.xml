@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/cmen/google-charts-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/composer" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/twilio/sdk" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/friendsofsymfony/message-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/vresh/twilio-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/snipe/banbuilder" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/vich/uploader-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/mgilet/notification-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/knplabs/knp-components" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/knplabs/knp-paginator-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/friendsofsymfony/ckeditor-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/friendsofsymfony/user-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/gregwar/captcha-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/gregwar/captcha" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/zendframework/zend-json" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/ob/highcharts-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/stripe/stripe-php" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/knplabs/knp-snappy" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/knplabs/knp-snappy-bundle" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="5.5.0" />
+</project>

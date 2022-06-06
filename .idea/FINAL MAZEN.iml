@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/TalandWEB/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/TalandWEB/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/cmen/google-charts-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/doctrine/annotations" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/doctrine/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/doctrine/common" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/doctrine/doctrine-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/doctrine/doctrine-cache-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/doctrine/orm" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/dompdf/dompdf" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/fig/link-util" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/friendsofsymfony/ckeditor-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/friendsofsymfony/message-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/friendsofsymfony/user-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/gregwar/captcha" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/gregwar/captcha-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/incenteev/composer-parameter-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/jdorn/sql-formatter" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/jms/metadata" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/knplabs/knp-components" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/knplabs/knp-paginator-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/knplabs/knp-snappy" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/knplabs/knp-snappy-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/mgilet/notification-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/ob/highcharts-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/phenx/php-font-lib" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/phenx/php-svg-lib" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/psr/link" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/sabberworm/php-css-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/sensio/distribution-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/sensio/framework-extra-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/sensio/generator-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/sensiolabs/security-checker" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/snipe/banbuilder" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/stripe/stripe-php" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/symfony/monolog-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/symfony/phpunit-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/symfony/polyfill-apcu" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/symfony/polyfill-intl-icu" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/symfony/polyfill-php56" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/symfony/polyfill-php70" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/symfony/polyfill-util" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/symfony/swiftmailer-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/symfony/symfony" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/twilio/sdk" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/vich/uploader-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/vresh/twilio-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/TalandWEB/vendor/zendframework/zend-json" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

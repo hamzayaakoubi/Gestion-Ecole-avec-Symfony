@@ -1,0 +1,1510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3c23ab9-6e12-4914-996a-7ecbc640ff46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TalandWEB/app/Resources/views/layoutCalender.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Controller/ClasseController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Controller/EleveController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Controller/EmploiTempsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Controller/MatiereController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Controller/SalleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Controller/TestMailController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/Absence.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/Article.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/Cantine.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/Categorie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/Categoriefaq.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/Categorieproposees.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/Classe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/Club.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/EmploiTemps.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/Evenement.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/EvenementParticipant.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/Faq.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/Faqq.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/Finance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/Foyer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/Frais.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/Matiere.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/Menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/Notes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/Paiment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/Rate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/Ratee.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/Reclamation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/Reponses.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/Reserv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Entity/Salle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Form/ClasseType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Form/EmploiTempsType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Form/MatiereType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Form/SalleType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/config/routing/classe.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/config/routing/eleve.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/config/routing/emploitemps.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/config/routing/matiere.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/config/routing/salle.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/views/classe/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/views/classe/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/views/classe/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/views/classe/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/views/eleve/affecter.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/views/eleve/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/views/emploitemps/confirmation.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/views/emploitemps/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/views/emploitemps/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/views/emploitemps/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/views/emploitemps/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/views/matiere/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/views/matiere/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/views/matiere/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/views/matiere/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/views/salle/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/views/salle/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/views/salle/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Resources/views/salle/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Tests/Controller/ClasseControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Tests/Controller/EmploiTempsControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Tests/Controller/MatiereControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AdminBundle/Tests/Controller/SalleControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AppBundle/Repository/FoyerRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AppBundle/Repository/MailRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AppBundle/Repository/PostRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AppBundle/Repository/PostcommentRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AppBundle/Repository/ReclamationRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AppBundle/Repository/ReservationRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/AppBundle/Repository/TypeRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ClubBundle/Controller/ClubController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ClubBundle/Controller/ClubEleveController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ClubBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ClubBundle/Entity/Club.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ClubBundle/Entity/ClubEleve.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ClubBundle/Form/ClubEleveType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ClubBundle/Form/ClubType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ClubBundle/Repository/ClubEleveRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ClubBundle/Repository/ClubRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ClubBundle/Resources/views/Default/DetailClub.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ClubBundle/Resources/views/Default/addclub.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ClubBundle/Resources/views/Default/editClub.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ClubBundle/Resources/views/Default/editmembreclub.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ClubBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ClubBundle/Resources/views/Default/showclub.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ClubBundle/Resources/views/Default/showclubeleve.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ClubBundle/Resources/views/Default/showeleveclub.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Client/StripeClient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Controller/CantineController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Controller/FinanceController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Controller/FraisController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Controller/MenuController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Controller/PaimentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Controller/StripeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Controller/searchController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Entity/Cantine.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Entity/Finance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Entity/Frais.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Entity/Menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Entity/Paiment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Event/StripeEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/EventSubscriber/StripeEventSubscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Form/CantineType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Form/FinanceType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Form/FraisType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Form/MenuType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Form/PaimentType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Form/RechFType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Form/RechercheType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Form/SearchType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Form/UserType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Repository/CantineRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Repository/EntitRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Repository/FinanceRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Repository/FraisRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Repository/PaimentRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Repository/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Repository/menuRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/config/routing/cantine.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/config/routing/finance.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/config/routing/frais.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/config/routing/menu.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/config/routing/paiment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/Default/back.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/Default/front.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/Default/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/Default/paginationTemplate.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/Default/pdf.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/Default/recherche.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/Recherche/recherche.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/cantine/c.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/cantine/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/cantine/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/cantine/list.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/cantine/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/cantine/read.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/cantine/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/cantine/stat.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/finance/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/finance/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/finance/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/finance/read.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/finance/search.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/finance/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/finance/validation.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/frais/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/frais/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/frais/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/frais/recherche.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/frais/search.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/frais/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/frais/stat.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/menu/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/menu/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/menu/list.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/menu/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/menu/read.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/menu/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/paiment/afficherStat.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/paiment/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/paiment/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/paiment/mail.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/paiment/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/paiment/read.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/paiment/rechercheAll.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/paiment/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/paiment/stripe.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/DodoBundle/Resources/views/paiment/test.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/EvenementBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/EvenementBundle/Controller/EvenementController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/EvenementBundle/Controller/EvenementParticipantController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/EvenementBundle/Entity/Evenement.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/EvenementBundle/Entity/EvenementParticipant.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/EvenementBundle/Form/EvenementParticipantType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/EvenementBundle/Form/EvenementType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/EvenementBundle/Form/EvenementTypeFront.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/EvenementBundle/Repository/EvenementParticipantRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/EvenementBundle/Repository/EvenementRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/EvenementBundle/Resources/views/Default/DetailEvenement.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/EvenementBundle/Resources/views/Default/addEvent.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/EvenementBundle/Resources/views/Default/addEventFront.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/EvenementBundle/Resources/views/Default/addEventParticipant.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/EvenementBundle/Resources/views/Default/editEvent.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/EvenementBundle/Resources/views/Default/editEventFront.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/EvenementBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/EvenementBundle/Resources/views/Default/showevent.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/EvenementBundle/Resources/views/Default/showeventFront.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/EvenementBundle/Resources/views/Default/showeventToParticipant.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/EvenementBundle/Resources/views/Default/showeventparticipant.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/FoyerBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/FoyerBundle/Controller/FoyerController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/FoyerBundle/Form/FoyerType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/FoyerBundle/Resources/views/Foyer/add.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/FoyerBundle/Resources/views/Foyer/detailedpost.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/FoyerBundle/Resources/views/Foyer/detailedpostBack.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/FoyerBundle/Resources/views/Foyer/list.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/FoyerBundle/Resources/views/Foyer/listBack.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/FoyerBundle/Resources/views/Foyer/update.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/FrontBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/FrontBundle/Controller/EmploiTempsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/FrontBundle/Form/EmploiTempsType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/FrontBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/FrontBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/FrontBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/FrontBundle/Resources/views/Default/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/FrontBundle/Tests/Controller/ClasseControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/FrontBundle/Tests/Controller/EmploiTempsControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/FrontBundle/Tests/Controller/MatiereControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/GrapheBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/GrapheBundle/Resources/views/Default/client.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Controller/AbsenceController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Controller/NotesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Entity/Absence.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Entity/Notes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Form/AbsenceType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Form/NotesType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Form/RechFType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Repository/AbsenceRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Repository/NoteRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/config/routing/absence.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/config/routing/notes.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/Default/back.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/Default/paginationTemplate.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/absence/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/absence/editE.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/absence/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/absence/indexE.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/absence/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/absence/newE.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/absence/pdf.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/absence/read.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/absence/recherche.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/absence/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/absence/showE.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/notes/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/notes/editE.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/notes/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/notes/indexE.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/notes/list.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/notes/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/notes/newE.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/notes/pdf.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/notes/read.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/notes/recherche.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/notes/search.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/notes/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Resources/views/notes/showE.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Tests/Controller/AbsenceControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/HoussemBundle/Tests/Controller/NotesControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/QcmBundle/Controller/AnswerController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/QcmBundle/Controller/CreateController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/QcmBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/QcmBundle/Controller/ResultsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/QcmBundle/Entity/Qcm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/QcmBundle/Entity/Question.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/QcmBundle/Entity/Resultat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/QcmBundle/QcmBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/QcmBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/QcmBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/QcmBundle/Resources/views/Answer/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/QcmBundle/Resources/views/Answer/renseigner.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/QcmBundle/Resources/views/Create/createResults.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/QcmBundle/Resources/views/Create/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/QcmBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/QcmBundle/Resources/views/Results/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/QcmBundle/Resources/views/Results/viewResult.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReclamationBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReclamationBundle/Controller/MailController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReclamationBundle/Controller/ReclamationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReclamationBundle/Controller/TypeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReclamationBundle/Form/MailType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReclamationBundle/Form/ReclamationType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReclamationBundle/Form/TypeType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReclamationBundle/Resources/views/Reclamation/add.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReclamationBundle/Resources/views/Reclamation/detailedpost.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReclamationBundle/Resources/views/Reclamation/list.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReclamationBundle/Resources/views/Reclamation/update.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReclamationBundle/Resources/views/Reclamation1/add.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReclamationBundle/Resources/views/Reclamation1/all_list.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReclamationBundle/Resources/views/Reclamation1/archive.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReclamationBundle/Resources/views/Reclamation1/corbeille.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReclamationBundle/Resources/views/Reclamation1/detailedpost.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReclamationBundle/Resources/views/Reclamation1/list.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReclamationBundle/Resources/views/Reclamation1/list1.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReclamationBundle/Resources/views/Reclamation1/listuser.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReclamationBundle/Resources/views/Reclamation1/mail.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReclamationBundle/Resources/views/Reclamation1/pdf.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReclamationBundle/Resources/views/Reclamation1/pdfmobile.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReclamationBundle/Resources/views/Reclamation1/update.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReservationBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReservationBundle/Controller/ReservationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReservationBundle/Form/ReservationType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReservationBundle/Resources/views/Reservation/add.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/ReservationBundle/Resources/views/Reservation/list.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/StatistiqueBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/StatistiqueBundle/Controller/StatistiqueController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/StatistiqueBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/StatistiqueBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/StatistiqueBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/StatistiqueBundle/Resources/views/Default/statgendre.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/Tutorial/BlogBundle/Controller/BlogController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/Tutorial/BlogBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/Tutorial/BlogBundle/Controller/reviewController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/Tutorial/BlogBundle/Form/PostType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/Tutorial/BlogBundle/Form/reviewType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/Tutorial/BlogBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/Tutorial/BlogBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/Tutorial/BlogBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/Tutorial/BlogBundle/Resources/views/Post/add.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/Tutorial/BlogBundle/Resources/views/Post/detailedpost.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/Tutorial/BlogBundle/Resources/views/Post/detailedpostBack.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/Tutorial/BlogBundle/Resources/views/Post/list.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/Tutorial/BlogBundle/Resources/views/Post/listBack.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/Tutorial/BlogBundle/Resources/views/Post/update.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/Tutorial/BlogBundle/TutorialBlogBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Entity/Faq.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Entity/Foyer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Entity/Mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Entity/Message.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Entity/MessageMetadata.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Entity/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Entity/Postcomment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Entity/Reclamation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Entity/Reclamation1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Entity/Reservation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Entity/Review.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Entity/Reviewlike.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Entity/Thread.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Entity/ThreadMetadata.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Entity/Type.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Repository/FoyerRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Repository/MailRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Repository/PostRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Repository/PostcommentRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Repository/Reclamation1Repository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Repository/ReclamationRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Repository/ReservationRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Repository/ServiceRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Repository/TypeRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Repository/reviewRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/BackOffice/images/backgrounds/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/BackOffice/images/backgrounds/bg-17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/BackOffice/images/backgrounds/bg-18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/BackOffice/images/backgrounds/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/BackOffice/images/backgrounds/ex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/BackOffice/images/backgrounds/excel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/BackOffice/images/backgrounds/icons8-edit-image-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/BackOffice/images/backgrounds/icons8-edit-image-64 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/BackOffice/images/backgrounds/icons8-view-64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/BackOffice/images/backgrounds/pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/BackOffice/images/backgrounds/pdff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/BackOffice/images/backgrounds/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/BackOffice/images/backgrounds/search1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/BackOffice/images/backgrounds/show.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/BackOffice/images/backgrounds/show1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bootstrap/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bootstrap/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bootstrap/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bootstrap/main.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bootstrap/main.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bootstrap/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bootstrap/main.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bootstrap/main.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bootstrap/main.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bootstrap/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/google-calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/google-calendar.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/google-calendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales-all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/ar-dz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/ar-kw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/ar-ly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/ar-ma.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/ar-sa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/ar-tn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/en-nz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/es-us.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/fr-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/kk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/lb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/nn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/sr-cyrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/locales/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/luxon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/luxon.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/luxon.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/moment-timezone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/moment-timezone.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/moment-timezone.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/moment.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/rrule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/rrule.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/bundle/rrule.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales-all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/ar-dz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/ar-kw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/ar-ly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/ar-ma.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/ar-sa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/ar-tn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/en-nz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/es-us.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/fr-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/kk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/lb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/nn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/sr-cyrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/ug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/uz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/locales/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/main.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/main.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/main.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/main.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/main.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/core/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/daygrid/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/daygrid/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/daygrid/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/daygrid/main.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/daygrid/main.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/daygrid/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/daygrid/main.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/daygrid/main.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/daygrid/main.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/daygrid/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/google-calendar/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/google-calendar/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/google-calendar/main.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/google-calendar/main.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/google-calendar/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/google-calendar/main.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/google-calendar/main.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/google-calendar/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/list/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/list/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/list/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/list/main.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/list/main.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/list/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/list/main.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/list/main.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/list/main.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/list/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/luxon/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/luxon/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/luxon/main.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/luxon/main.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/luxon/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/luxon/main.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/luxon/main.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/luxon/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/moment-timezone/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/moment-timezone/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/moment-timezone/main.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/moment-timezone/main.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/moment-timezone/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/moment-timezone/main.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/moment-timezone/main.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/moment-timezone/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/moment/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/moment/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/moment/main.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/moment/main.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/moment/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/moment/main.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/moment/main.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/moment/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/rrule/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/rrule/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/rrule/main.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/rrule/main.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/rrule/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/rrule/main.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/rrule/main.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/rrule/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/timegrid/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/timegrid/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/timegrid/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/timegrid/main.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/timegrid/main.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/timegrid/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/timegrid/main.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/timegrid/main.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/timegrid/main.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/timegrid/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/PDF/reclamation13.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/PDFMB/reclamation2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/css/colors/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/css/daterangepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/css/default.date.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/css/icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/css/modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/fonts/fontelico.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/fonts/fontelico.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/fonts/fontelico.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/fonts/fontelico.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/fonts/fontello.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/fonts/iconsmind.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/fonts/simple-line-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/fonts/simple-line-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/images/agences/aa.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/images/agences/agencefictif.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/images/agences/aieroportcarthage.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/images/agences/pieces/aa.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/images/agences/pieces/agencefictif.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/images/agent-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/images/blog-post-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/images/blog-post-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/images/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/images/chauffeurs/Hammadi.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/images/chauffeurs/vv.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/images/chauffeurs/withimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/images/family.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/images/img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/images/no_image.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/images/rent_car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/images/voitures/500tunis200_1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/images/voitures/500tunis200_2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/images/voitures/500tunis200_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/scripts/chosen.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/scripts/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/scripts/custom2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/scripts/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/scripts/dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/scripts/infobox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/scripts/jquery-2.2.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/scripts/jquery.jpanelmenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/scripts/legacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/scripts/magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/scripts/maps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/scripts/markerclusterer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/scripts/masonry.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/scripts/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/scripts/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/scripts/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/scripts/package.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/scripts/picker.date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/scripts/picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/scripts/rangeSlider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/scripts/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/scripts/sticky-kit.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/scripts/switcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/client/scripts/tooltips.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/css/stats.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/css/font/summernote4c4d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/css/font/summernote4c4d.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/css/font/summernote4c4d.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/css/font/summernoted41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/css/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/css/owl.video.play.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/css/slicknav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/css/summernote.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/fonts/LineIcons0ad2.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/fonts/LineIcons0ad2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/fonts/LineIcons0ad2.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/fonts/LineIcons0ad2.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/fonts/line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/about/about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/author/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/background/counter-back1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/blog/blog1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/blog/blog2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/blog/blog3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/blog/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/blog/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/blog/img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/blog/thumb1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/blog/thumb2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/blog/thumb3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/blog/thumb4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/blog/thumb5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/blog/user1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/blog/user2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/blog/user3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/details/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/details/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/details/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/details/img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/details/img5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/featured/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/featured/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/featured/img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/featured/img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/featured/img-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/featured/img-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/hero-area.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/logo-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/product/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/product/img10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/product/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/product/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/product/img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/product/img5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/product/img6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/product/img7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/product/img8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/product/img9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/productinfo/agent.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/productinfo/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/productinfo/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/productinfo/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/testimonial/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/testimonial/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/testimonial/img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/testimonial/img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/img/testimonial/img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/js/color-switcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/js/contact-form-script.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/js/form-validator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/js/jquery-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/js/jquery.counterup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/js/jquery.slicknav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/js/summernote.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/js/waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/assets/js/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/front/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/images/giphy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/images/w.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/images/wel.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TalandWEB/web/sound/mouse.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/app/AppKernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/TalandWEB/app/AppKernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/app/Resources/views/LayoutFront.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/TalandWEB/app/Resources/views/LayoutFront.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/app/Resources/views/baseBack.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/TalandWEB/app/Resources/views/baseBack.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/app/Resources/views/baseFront.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/TalandWEB/app/Resources/views/baseFront.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/app/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/TalandWEB/app/config/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/app/config/parameters.yml" beforeDir="false" afterPath="$PROJECT_DIR$/TalandWEB/app/config/parameters.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/app/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/TalandWEB/app/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/app/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/TalandWEB/app/config/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/TalandWEB/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/TalandWEB/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/composer.phar" beforeDir="false" afterPath="$PROJECT_DIR$/TalandWEB/composer.phar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/src/AppBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/TalandWEB/src/AppBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/src/PostsBundle/Controller/CommentsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/src/PostsBundle/Controller/DefaultController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/src/PostsBundle/Controller/PostsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/src/PostsBundle/Entity/Comments.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/src/PostsBundle/Entity/Likes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/src/PostsBundle/Entity/Posts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/src/PostsBundle/Form/CommentsType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/src/PostsBundle/Form/PostsType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/src/PostsBundle/PostsBundle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/src/PostsBundle/Resources/config/routing.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/src/PostsBundle/Resources/config/services.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/src/PostsBundle/Resources/views/Comments/add_comment.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/src/PostsBundle/Resources/views/Comments/get_comments.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/src/PostsBundle/Resources/views/Comments/update_comment.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/src/PostsBundle/Resources/views/Posts/add_post.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/src/PostsBundle/Resources/views/Posts/get_posts.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/src/PostsBundle/Resources/views/Posts/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/src/PostsBundle/Resources/views/Posts/update_post.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/src/PostsBundle/Tests/Controller/CommentsControllerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/src/PostsBundle/Tests/Controller/PostsControllerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/TalandWEB/src/UserBundle/Resources/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/var/SymfonyRequirements.php" beforeDir="false" afterPath="$PROJECT_DIR$/TalandWEB/var/SymfonyRequirements.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/bootstrap-extended.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/colors.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/components.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/core/colors/palette-gradient.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/core/colors/palette-switch.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/core/colors/palette-tooltip.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/core/menu/menu-types/vertical-menu.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/pages/advanced-cards.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/pages/chat-application.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/pages/coming-soon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/pages/dashboard-analytics.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/pages/dashboard-ecommerce.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/pages/email-application.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/pages/error.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/pages/gallery.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/pages/invoice.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/pages/login-register.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/pages/project.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/pages/search.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/pages/timeline.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/pages/under-maintenance.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/pages/users.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/plugins/animate/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/plugins/calendars/fullcalendar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/plugins/charts/chartist.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/plugins/extensions/toastr.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/plugins/file-uploaders/dropzone.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/plugins/forms/checkboxes-radios.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/plugins/forms/extended/form-extended.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/plugins/forms/switch.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/plugins/forms/tags/tagging.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/plugins/forms/validation/form-validation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/plugins/forms/wizard.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/css/plugins/pickers/daterange/daterange.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/data/jvector/gdp-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/fonts/feather/fonts/feather2467.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/fonts/feather/fonts/feather2467.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/fonts/feather/fonts/feather2467.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/fonts/feather/fonts/feather2467.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/fonts/feather/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/fonts/line-awesome/css/line-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/fonts/simple-line-icons/fonts/Simple-Line-Icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/fonts/simple-line-icons/fonts/Simple-Line-Iconsd41d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/fonts/simple-line-icons/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/backgrounds/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/backgrounds/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/backgrounds/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/backgrounds/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/backgrounds/bg-17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/backgrounds/bg-18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/carousel/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/carousel/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/carousel/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/carousel/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/carousel/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/carousel/06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/carousel/07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/carousel/08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/carousel/09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/carousel/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/carousel/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/carousel/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/carousel/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/carousel/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/carousel/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/carousel/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/datatables/resources/details_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/datatables/resources/details_open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/elements/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/elements/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/elements/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/elements/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/gallery/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/gallery/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/gallery/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/gallery/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/gallery/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/gallery/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/gallery/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/gallery/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/gallery/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/gallery/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/gallery/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/gallery/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/gallery/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/gallery/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/gallery/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/gallery/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/ico/apple-icon-120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/ico/favicon-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/icons/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/logo/logo-80x80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/logo/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/pages/signature-scan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portfolio/portfolio-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portfolio/portfolio-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portfolio/portfolio-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portfolio/portfolio-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portfolio/portfolio-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portfolio/width-1200/portfolio-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portfolio/width-600/portfolio-14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portrait/small/avatar-s-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portrait/small/avatar-s-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portrait/small/avatar-s-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portrait/small/avatar-s-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portrait/small/avatar-s-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portrait/small/avatar-s-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portrait/small/avatar-s-15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portrait/small/avatar-s-15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portrait/small/avatar-s-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portrait/small/avatar-s-17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portrait/small/avatar-s-18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portrait/small/avatar-s-19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portrait/small/avatar-s-19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portrait/small/avatar-s-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portrait/small/avatar-s-21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portrait/small/avatar-s-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portrait/small/avatar-s-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portrait/small/avatar-s-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portrait/small/avatar-s-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portrait/small/avatar-s-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portrait/small/avatar-s-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portrait/small/avatar-s-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portrait/small/avatar-s-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/portrait/small/avatar-s-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/slider/slider-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/slider/slider-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/images/slider/slider-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/core/app-menu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/core/app.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/core/libraries/jquery_ui/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/animation/animation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/cards/card-advanced.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/charts/chartist/bar/stacked-bar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/charts/chartist/bar/vertical-bar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/charts/chartist/line/area.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/charts/chartist/line/line.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/charts/chartist/pie/donut.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/charts/chartist/pie/pie.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/charts/chartjs/bar/bar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/charts/chartjs/bar/column-stacked.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/charts/chartjs/bar/column.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/charts/chartjs/line/line-area.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/charts/chartjs/line/line.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/charts/chartjs/pie-doughnut/doughnut-simple.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/charts/chartjs/pie-doughnut/pie-simple.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/charts/chartjs/polar-radar/polar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/charts/chartjs/polar-radar/radar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/charts/gmaps/maps.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/charts/jvector/jvector.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/coming-soon/coming-soon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/customizer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/editors/editor-ckeditor.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/editors/editor-tinymce.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/extensions/block-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/extensions/dropzone.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/extensions/fullcalendar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/extensions/rating.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/extensions/sweet-alerts.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/extensions/toastr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/extensions/tour.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/forms/checkbox-radio.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/forms/custom-file-input.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/forms/extended/form-card.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/forms/extended/form-inputmask.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/forms/extended/form-maxlength.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/forms/form-login-register.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/forms/form-repeater.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/forms/select/form-select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/forms/switch.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/forms/tags/tagging.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/forms/validation/form-validation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/forms/wizard-steps.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/gallery/photo-swipe/photoswipe-script.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/modal/components-modal.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/navs/navs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/pages/bootstrap-toast.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/pages/chat-application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/pages/content-sidebar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/pages/dashboard-analytics.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/pages/dashboard-ecommerce.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/pages/email-application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/pages/timeline.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/pages/users-contacts.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/pagination/pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/pickers/dateTime/pick-a-datetime.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/popover/popover.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/tables/datatables-extensions/datatables-sources.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/tables/datatables/datatable-advanced.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/tables/datatables/datatable-api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/tables/datatables/datatable-basic.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/tables/datatables/datatable-styling.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/tooltip/tooltip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/ui/compact-menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/js/scripts/ui/compact-menu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/calendars/fullcalendar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/charts/chartist-plugin-tooltip.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/charts/chartist.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/charts/jquery-jvectormap-2.0.3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/editors/tinymce/img/loader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/editors/tinymce/tinymce.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/extensions/hopscotch.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/extensions/raty/fonts/raty.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/extensions/raty/fonts/raty.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/extensions/raty/fonts/raty.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/extensions/raty/fonts/raty.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/extensions/raty/fonts/ratyd41d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/extensions/raty/jquery.raty.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/extensions/toastr.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/file-uploaders/dropzone.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/flat/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/flat/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/flat/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/flat/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/flat/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/flat/flat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/flat/flat@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/flat/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/flat/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/flat/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/flat/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/flat/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/flat/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/flat/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/flat/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/flat/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/flat/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/flat/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/flat/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/flat/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/flat/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/futurico/futurico.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/futurico/futurico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/futurico/futurico@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/icheck.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/line/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/line/line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/line/line@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/minimal/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/minimal/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/minimal/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/minimal/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/minimal/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/minimal/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/minimal/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/minimal/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/minimal/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/minimal/minimal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/minimal/minimal@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/minimal/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/minimal/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/minimal/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/minimal/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/minimal/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/minimal/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/minimal/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/minimal/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/minimal/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/minimal/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/polaris/polaris.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/polaris/polaris.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/polaris/polaris@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/square/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/square/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/square/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/square/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/square/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/square/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/square/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/square/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/square/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/square/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/square/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/square/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/square/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/square/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/square/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/square/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/square/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/square/square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/square/square@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/square/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/icheck/square/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/selects/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/forms/toggle/switchery.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/pickers/daterange/daterangepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/pickers/pickadate/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/pickers/pickadate/default.date.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/pickers/pickadate/default.time.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/tables/datatable/dataTables.bootstrap4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/tables/datatable/datatables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/tables/extensions/responsive.dataTables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/tables/extensions/rowReorder.dataTables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/timeline/vertical-timeline.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/ui/prism.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/css/vendors.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/img/sprite-green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/animation/jquery.appear.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/charts/chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/charts/chartist-plugin-tooltip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/charts/chartist.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/charts/gmaps.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/charts/jvector/jquery-jvectormap-2.0.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/charts/jvector/jquery-jvectormap-de-merc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/charts/jvector/jquery-jvectormap-us-aea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/charts/jvector/jquery-jvectormap-us-lcc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/charts/jvector/jquery-jvectormap-world-mill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/coming-soon/jquery.countdown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/editors/ckeditor/ckeditor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/editors/tinymce/tinymce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/extensions/dropzone.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/extensions/fullcalendar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/extensions/hopscotch.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/extensions/jquery.raty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/extensions/jquery.steps.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/extensions/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/extensions/sweetalert2.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/extensions/toastr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/forms/extended/card/jquery.card.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/forms/extended/inputmask/jquery.inputmask.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/forms/extended/maxlength/bootstrap-maxlength.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/forms/icheck/icheck.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/forms/repeater/jquery.repeater.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/forms/select/select2.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/forms/tags/form-field.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/forms/tags/tagging.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/forms/toggle/switchery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/forms/validation/jqBootstrapValidation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/forms/validation/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/gallery/masonry/masonry.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/gallery/photo-swipe/default-skin/default-skin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/gallery/photo-swipe/default-skin/default-skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/gallery/photo-swipe/default-skin/default-skin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/gallery/photo-swipe/default-skin/preloader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/gallery/photo-swipe/photoswipe-ui-default.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/gallery/photo-swipe/photoswipe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/gallery/photo-swipe/photoswipe.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/jquery.sharrre.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/pagination/jquery.twbsPagination.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/pickers/dateTime/moment-with-locales.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/pickers/daterange/daterangepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/pickers/pickadate/legacy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/pickers/pickadate/picker.date.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/pickers/pickadate/picker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/pickers/pickadate/picker.time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/tables/buttons.flash.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/tables/buttons.html5.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/tables/buttons.print.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/tables/datatable/dataTables.bootstrap4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/tables/datatable/dataTables.buttons.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/tables/datatable/dataTables.responsive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/tables/datatable/dataTables.rowReorder.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/tables/datatable/datatables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/tables/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/tables/jszip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/tables/pdfmake.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/tables/vfs_fonts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/timeline/horizontal-timeline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/ui/headroom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/ui/jquery.sticky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/ui/prism.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/app-assets/vendors/js/vendors.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/animation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/block-ui.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/card-advanced.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/card-bootstrap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/changelog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/chartist-charts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/chartjs-charts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/chat-application.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/color-palette-amber.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/color-palette-blue-grey.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/color-palette-blue.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/color-palette-cyan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/color-palette-danger.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/color-palette-info.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/color-palette-pink.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/color-palette-primary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/color-palette-purple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/color-palette-red.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/color-palette-success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/color-palette-teal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/color-palette-warning.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/color-palette-yellow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/coming-soon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/component-alerts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/component-badges.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/component-buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/component-carousel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/component-collapse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/component-dropdowns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/component-list-group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/component-media-objects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/component-modals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/component-navs-component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/component-pagination.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/component-pill-badges.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/component-pills-component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/component-popovers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/component-progress.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/component-spinner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/component-tabs-component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/component-toast.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/component-tooltips.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/content-grid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/content-helper-classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/content-syntax-highlighter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/content-text-utilities.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/content-typography.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/dashboard-analytics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/dashboard-ecommerce.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/dt-advanced-initialization.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/dt-api.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/dt-basic-initialization.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/dt-data-sources.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/dt-styling.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/editor-ckeditor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/editor-tinymce.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/email-application.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/error-400.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/error-401.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/error-403.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/error-404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/error-500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/ex-component-ratings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/ex-component-sweet-alerts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/ex-component-toastr.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/ex-component-tour.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/file-uploader-dropzone.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/form-checkboxes-radios.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/form-extended-inputs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/form-inputs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/form-layout-basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/form-layout-hidden-labels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/form-layout-horizontal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/form-repeater.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/form-select2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/form-switch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/form-tags-input.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/form-validation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/form-wizard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/full-calender.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/gallery-grid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/google-maps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/icons-feather.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/icons-line-awesome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/icons-simple-line-icons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/invoice-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/jvector-maps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/layout-boxed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/layout-content-detached-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/layout-content-detached-left-sticky-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/layout-content-detached-right-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/layout-content-detached-right-sticky-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/layout-dark.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/layout-fixed-navbar-footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/layout-fixed-navbar-navigation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/layout-fixed-navbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/layout-fixed-navigation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/layout-fixed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/layout-light.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/layout-static.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/navbar-hide-on-scroll-top.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/pickers-date-&amp;-time-picker.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/project-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/recover-password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/table-bootstrap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/timeline-center.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/timeline-horizontal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/under-maintenance.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/unlock-user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/user-profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/users-contacts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/vertical-nav-compact-menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/BackOffice/html/ltr/vertical-menu-template/vertical-nav-flipped.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/albums-store.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/albums-store.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/blog.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/blog.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/contact.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/elements.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/elements.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/event.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/TalandWEB/web/FrontOffice/event.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/TalandWEB/web/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TalandWEB/web/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/TalandWEB/web/config.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/TalandWEB/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/TalandWEB" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/cmen/google-charts-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/composer" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/twilio/sdk" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/friendsofsymfony/message-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/vresh/twilio-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/snipe/banbuilder" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/vich/uploader-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/mgilet/notification-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/knplabs/knp-components" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/knplabs/knp-paginator-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/friendsofsymfony/ckeditor-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/friendsofsymfony/user-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/gregwar/captcha-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/gregwar/captcha" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/zendframework/zend-json" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/ob/highcharts-bundle" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/stripe/stripe-php" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/knplabs/knp-snappy" />
+      <path value="$PROJECT_DIR$/TalandWEB/vendor/knplabs/knp-snappy-bundle" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1aZxEOefWRfONxeXezfUsuD6Uro" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\FINAL MAZEN1\TalandWEB\web\FrontOffice" />
+      <recent name="C:\xampp\htdocs\FINAL MAZEN\TalandWEB\web\FrontOffice" />
+      <recent name="C:\xampp\htdocs\FINAL MAZEN\TalandWEB\src\FrontBundle" />
+      <recent name="C:\xampp\htdocs\FINAL MAZEN\TalandWEB\app\Resources\views" />
+      <recent name="C:\xampp\htdocs\FINAL MAZEN\TalandWEB\src\AdminBundle" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="s doctrine:schema:update --force" />
+      <command value="c clear-cache" />
+      <command value="c dump autoload" />
+      <command value="s generate:bundle" />
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3c23ab9-6e12-4914-996a-7ecbc640ff46" name="Default Changelist" comment="" />
+      <created>1586956804874</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586956804874</updated>
+      <workItem from="1586956806679" duration="2186000" />
+      <workItem from="1587032506136" duration="10241000" />
+      <workItem from="1587135025687" duration="26682000" />
+      <workItem from="1587166712667" duration="1151000" />
+      <workItem from="1587172858420" duration="4941000" />
+      <workItem from="1587208047558" duration="6586000" />
+      <workItem from="1587308545085" duration="185000" />
+      <workItem from="1587377453031" duration="15878000" />
+      <workItem from="1589571504229" duration="262000" />
+      <workItem from="1589641275896" duration="5328000" />
+      <workItem from="1589753557360" duration="1423000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="485" y="84" key="#com.intellij.ide.util.MemberChooser" timestamp="1587155364598">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="485" y="84" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587155364598" />
+    <state x="413" y="123" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1587408364462">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="123" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1587408364462" />
+    <state x="407" y="256" key="ComposerCompositePathDialog" timestamp="1587135060701">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="407" y="256" key="ComposerCompositePathDialog/0.0.1366.728@0.0.1366.728" timestamp="1587135060701" />
+    <state x="463" y="109" key="FileChooserDialogImpl" timestamp="1587398120377">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="109" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587398120377" />
+    <state x="521" y="123" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587308729494" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1587164101617">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587164101617" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1587164101617">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587164101617" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1587164101617">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587164101617" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1587164101617">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587164101617" />
+    <state x="186" y="10" key="SettingsEditor" timestamp="1587135119007">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587135119007" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1587215267911">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1587215267911" />
+    <state x="496" y="279" key="SymfonyPathDialog" timestamp="1587135081617">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="496" y="279" key="SymfonyPathDialog/0.0.1366.728@0.0.1366.728" timestamp="1587135081617" />
+    <state x="390" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1587166821655">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587166821655" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1587142088152">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1587142088152" />
+  </component>
+</project>
